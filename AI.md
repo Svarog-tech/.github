@@ -29,7 +29,7 @@ Nejasné nebo moc obecné zadání vede ke slabému výsledku.
 **S příchodem AI nejsou základy vývoje méně důležité. Naopak. Architektura, čitelnost, testování, bezpečnost, dokumentace a audit výstupu jsou dnes důležitější než dřív.**
 **AI ti může ušetřit čas, ale odpovědnost za kvalitu je pořád na tobě!!!!!!**
 
-## Vždy dělej audit
+**Vždy dělej audit**
 
 Nikdy neber výstup AI jako automaticky správný.
 I dobrý kód může obsahovat chyby, bezpečnostní problémy nebo špatnou logiku. Audit je povinná součást práce.
@@ -38,15 +38,14 @@ I dobrý kód může obsahovat chyby, bezpečnostní problémy nebo špatnou log
 ## Doporučené skills.sh 
 https://skills.sh/
 
-Co je skills.sh?
+### Co je skills.sh?
 
 skills.sh je otevřený ekosystém pro tzv. AI skills — tedy znovupoužitelné schopnosti pro AI agenty.
 Můžeš si je představit jako pluginy, rozšíření nebo hotové workflow, které AI dávají lepší postupy, pravidla, specializované know-how a strukturu pro konkrétní úkoly. Místo obecného odpovídání tak AI pracuje podle ověřeného postupu pro audit, SEO, UI/UX, testování, security nebo brainstorming.
 
 Proč to používat
 
-Bez skills AI často:
-
+### Bez skills AI často:
 * moc domýšlí
 * přeskakuje důležité kroky
 * jde rovnou do kódu bez návrhu
@@ -54,19 +53,19 @@ Bez skills AI často:
 
 Se správným skillem dostane AI lepší rámec práce. To znamená lepší výstup, méně chaosu a větší šanci, že bude postupovat rozumně a systematicky.
 
-**Jak to funguje**
+### Jak to funguje
 
 Skills se instalují přes skills CLI, typicky jedním příkazem jako:
 npx skills add owner/skill-name
 
 CLI slouží k instalaci a správě skillů pro AI agenty. Některé skills fungují napříč populárními coding agenty jako Claude Code, Cursor nebo Windsurf, ale vždy je dobré zkontrolovat kompatibilitu konkrétního skillu.
 
-**Jak o skills přemýšlet v praxi**
+### Jak o skills přemýšlet v praxi
 
 Neber je jako magii navíc.
 Ber je jako předpřipravené expert workflow, které AI nutí postupovat kvalitněji. Jeden skill může řešit audit webu, jiný SEO, další UI/UX návrh a jiný třeba brainstorming před samotným kódováním.
 
-**Tyhle jsou fakt OP**
+## Tyhle jsou fakt OP
 
 1. audit-website
 https://skills.sh/squirrelscan/skills/audit-website
@@ -84,8 +83,7 @@ Na čistě SEO věci je to mnohem lepší než generické „zkontroluj SEO“. 
 https://skills.sh/obra/superpowers/brainstorming
 Tohle není audit skill, ale je brutálně užitečný pro to, aby AI nezačala bezhlavě kódovat. Vynucuje proces: nejdřív kontext, pak otázky, návrh přístupů, design, spec a až potom implementace. Dokonce má „hard gate“, že se nemá jít do kódu bez prezentace návrhu a schválení. Na větší feature nebo nový web je to přesně ten typ skillu, který zlepší kvalitu zadání.
 
-**Další skills.sh**
-
+## Další skills.sh
 1. vercel-labs/react-best-practices
    Must-have, pokud děláš React nebo Next. Pomáhá s výkonem, bundle size, re-rendery, data fetchingem a architekturou komponent.
 2. vercel-labs/web-design-guidelines
@@ -107,7 +105,7 @@ Tohle není audit skill, ale je brutálně užitečný pro to, aby AI nezačala 
 10.cloudflare/web-perf
    Hodně dobré, pokud chceš audit výkonu webu a Core Web Vitals. Pro SEO/performance workflow velmi užitečné.
 
-**Když to seřadím**
+## Když to seřadím
 
 Pro weby a reálnou práci bych to teď seřadil takhle:
 
@@ -149,13 +147,13 @@ audit-website jako povinný konec
 
 Vytvoř základ moderního responzivního webu pro [typ projektu].
 
-Technologie:
+### Technologie:
 - HTML, CSS, JavaScript
 - bez backendu
 - čistý a přehledný kód
 - rozděl strukturu logicky
 
-Požadavky:
+### Požadavky:
 - vytvoř úvodní hero sekci
 - navigaci
 - sekci služby / features
@@ -164,19 +162,19 @@ Požadavky:
 - footer
 - web musí být responzivní pro desktop i mobil
 
-Design:
+### Design:
 - moderní, čistý, profesionální
 - dostatek mezer
 - důraz na čitelnost
 - používej srozumitelné názvy tříd
 
-Důležité:
+### Důležité:
 - nevymýšlej zbytečné funkce navíc
 - nepoužívej knihovny ani frameworky
 - kód piš tak, aby se dal snadno rozšířit
 - ke každé části stručně napiš, co dělá
 
-Nakonec:
+### Nakonec:
 - zkontroluj HTML strukturu
 - ověř responzivitu
 - napiš, na co si dát pozor při dalším rozšiřování
@@ -185,18 +183,18 @@ Nakonec:
 
 Uprav pouze navigační lištu na mém webu.
 
-Cíl:
+### Cíl:
 - navbar má být horizontálně vycentrovaný
 - logo vlevo
 - tlačítko Přihlášení vpravo
 - menu musí fungovat i na mobilu
 
-Omezení:
+### Omezení:
 - neupravuj ostatní sekce webu
 - neměň barvy mimo navbar
 - nepřepisuj celý projekt, uprav jen potřebné části
 
-Výstup:
+### Výstup:
 - pošli pouze relevantní HTML a CSS úpravy
 - vysvětli, co jsi změnil
 - zkontroluj, že se layout nerozbíjí na menších obrazovkách
@@ -207,8 +205,8 @@ Prompt pro audit kódu, security, SEO a kvality
 
 **Proveď důkladný audit tohoto projektu.**
 
-Zaměř se na:
-1. Kvalitu kódu
+## Zaměř se na:
+### 1. Kvalitu kódu
 - čitelnost
 - duplicity
 - špatná struktura
@@ -216,7 +214,7 @@ Zaměř se na:
 - porušení best practices
 - možnosti refaktoringu
 
-2. Security
+### 2. Security
 - potenciální XSS
 - špatná validace vstupů
 - nebezpečné zacházení s daty
@@ -224,7 +222,7 @@ Zaměř se na:
 - špatně řešená autentizace nebo autorizace
 - riziková místa v API voláních
 
-3. SEO
+### 3. SEO
 - struktura headingů
 - title a meta description
 - sémantické HTML
@@ -233,21 +231,21 @@ Zaměř se na:
 - indexovatelnost
 - technické SEO problémy
 
-4. Performance
+### 4. Performance
 - zbytečné rendery
 - příliš velké assety
 - neefektivní načítání
 - problémy s lazy loadingem
 - špatná optimalizace frontendu
 
-5. UX / frontend kvalita
+### 5. UX / frontend kvalita
 - responzivita
 - přístupnost
 - konzistence komponent
 - čitelnost
 - problematická místa pro uživatele
 
-Chci výstup v tomto formátu:
+### Chci výstup v tomto formátu:
 - Kategorie
 - Problém
 - Proč je to problém
@@ -255,23 +253,23 @@ Chci výstup v tomto formátu:
 - Návrh opravy
 - Priorita: nízká / střední / vysoká
 
-Důležité:
+### Důležité:
 - nevypisuj obecné fráze bez konkrétního důvodu
 - buď konkrétní a technický
 - pokud je něco v pořádku, napiš to
 - pokud si nejsi jistý, uveď to
 - na konci udělej stručné shrnutí nejkritičtějších problémů
 
-Nakonec:
+### Nakonec:
 - vytvoř seznam top 5 nejdůležitějších oprav
 - navrhni pořadí, v jakém je řešit
 
 
 **Jestli chceš audit spíš pro web jako celek:**
 
-Udělej kompletní audit webu z pohledu kódu, bezpečnosti, SEO, výkonu a UX.
+### Udělej kompletní audit webu z pohledu kódu, bezpečnosti, SEO, výkonu a UX.
 
-Chci, abys zkontroloval:
+## Chci, abys zkontroloval:
 - strukturu HTML
 - kvalitu CSS
 - čistotu JavaScriptu
@@ -283,14 +281,14 @@ Chci, abys zkontroloval:
 - bezpečnostní rizika
 - nekonzistentní nebo slabá místa v UI
 
-Postup:
+## Postup:
 - nejdřív stručně popiš celkový stav
 - potom rozděl problémy do kategorií
 - u každého problému napiš konkrétní návrh opravy
 - označ kritické chyby
 - upozorni na části, kterým nelze plně věřit bez ruční kontroly
 
-Na konci dej:
+## Na konci dej:
 - top 10 problémů
 - quick wins, které jdou opravit hned
 - věci, které jsou rizikové do budoucna
