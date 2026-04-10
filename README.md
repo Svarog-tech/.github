@@ -10,7 +10,7 @@ Po založení repozitáře je potřeba provést následující kroky:
 - vytvořit `.env` a `.env.example`
 - vytvořit `README.md` [3]
 - nastavit branche [2]
-
+- POKUD DELAS S PYTHONEM AT JE TAM REQUIREMENTS.TXT (https://boscacci.medium.com/why-and-how-to-make-a-requirements-txt-f329c685181e)
 ---
 
 ## `.gitignore` [1.1]
