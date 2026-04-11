@@ -414,3 +414,6 @@ Než začneš programovat, musíš mít jistotu, že:
 Cílem těchto pravidel není zbytečně komplikovat práci, ale udržet repozitář přehledný, bezpečný a snadno pochopitelný pro celý týmprojektový vedoucí: `@jmeno`
 správce repozitáře: `@jmeno`
 kontakt: `email@example.com`
+‘‘‘
+EPGmooky, KrAsync
+‘‘‘
